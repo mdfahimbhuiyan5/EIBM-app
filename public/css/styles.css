@@ -1,0 +1,288 @@
+.content-image {
+    /* height: 80%; */
+    /* width: 100%;
+    height: 100%; */
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.post-container {
+    margin: 30px;
+    background-color: #db960d;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.post-submit-container {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: lightcoral;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.feed-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.feed-container .feed-post-scroller {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 800px;
+}
+.reaction-buttons {
+    display: flex;
+    justify-content: center !important;
+}
+.reaction-buttons .btn-group {
+    height: 0%;
+}
+Caption {
+    font-size: xx-large;
+}
+
+.post-your-idea-caption {
+    font-size: x-large;
+}
+#exampleInputEmail1 {
+    border-radius: 5px;
+}
+#bmc-form {
+    text-align: center;
+    border: 10px solid #7d9b76;
+    border-radius: 7px;
+    margin: 5px;
+    background-color: #f6f6e9;
+}
+#bmc-form h6 {
+    text-transform: uppercase;
+    font-size: small;
+    background-color: #cbddd1;
+    padding: 5px;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+}
+#bmc-form p {
+    font-size: smaller;
+}
+
+#bmc-form .container-item {
+    border: 5px solid #7d9b76;
+}
+
+#bmc-form .top-container {
+    border: 10px solid #7d9b76;
+    height: 400px;
+}
+#bmc-form .bottom-container {
+    border: 10px solid #7d9b76;
+    height: 200px;
+}
+#bmc-form .top-container .long-container textarea {
+    min-height: 80%;
+}
+#bmc-form .container-item .cont-item {
+    height: 50%;
+}
+#bmc-form .bottom-container {
+    border: 10px solid #7d9b76;
+}
+#bmc-form .bottom-container .container-item {
+    width: 50%;
+}
+#bmc-form .top-container .container-item {
+    width: 20%;
+}
+
+.review-view {
+    display: flex;
+    flex-direction: column;
+    background-color: #cbddd1;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.teacher-comment-input {
+    background-color: lightcoral;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.review-comment-view {
+    background-color: lightblue;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.review-comment-view .indie-comment {
+    background-color: lightgoldenrodyellow;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.home-intro-container {
+    background-color: #a0c294;
+    padding: 40px;
+    color: white;
+}
+.home-intro-container .home-intro-top {
+    background-color: #737373;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+}
+.home-intro-container .home-intro-bottom {
+    margin: 20px;
+}
+.home-intro-container .home-intro-bottom div {
+    background-color: #737373;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    width: 80%;
+    height: 100px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.common-footer {
+    background-color: #d9d9d9;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    min-height: 200px;
+}
+.common-footer .common-footer-top {
+    border-bottom: 2px solid black;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+main {
+    flex: 1;
+    padding: 50px;
+    background-image: url("../img/ezgif.com-webp-to-jpg-converter.jpg");
+    opacity: 0.75;
+}
+
+.add-your-bmc {
+    background-color: #a0c294;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.comment-input-container {
+    margin: 10px;
+    padding: 10px;
+    background-color: lightcoral;
+    border-radius: 5px;
+}
+
+.comment-on-content {
+    margin: 10px;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+.comment-on-content .indie-comment-on-content {
+    margin: 10px;
+    padding: 10px;
+    background-color: lightcyan;
+    border-radius: 5px;
+}
+
+.about-us {
+    margin: 40px;
+    padding: 40px;
+    background-color: #7d9b76;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+}
+
+.hello-text {
+    margin: 20px;
+    padding: 20px;
+    background-color: #e2eaea;
+    border-radius: 5px 25px 25px 25px;
+    width: max-content;
+    color: black;
+}
+
+.eibm-intro {
+    background-color: #f6f6f6;
+    margin: 20px;
+    padding: 20px;
+}
+
+.assignment-post {
+    background-color: lightcoral;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+.nav-style {
+    background-image: url("../img/ezgif.com-avif-to-jpg-converter.jpg");
+}
+
+#navbarSupportedContent a {
+    background-color: #7d9b76;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.login-form {
+    margin: 40px;
+    padding: 40px;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+
+#navbarDropdownMenuLink {
+    border-radius: 40% !important;
+}
+.user-name-nav {
+    padding: 10px;
+    margin: 10px;
+}
+
+.all-assignments {
+    margin: 20px;
+    padding: 20px;
+    background-color: #7d9b76;
+    border-radius: 25px;
+}
+.contact-us-submit {
+    margin: 20px;
+    padding: 20px;
+    background-color: #7d9b76;
+    border-radius: 25px;
+}
+
+.single-assignment {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: lightcyan;
+}
